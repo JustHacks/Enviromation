@@ -27,10 +27,10 @@ const Navbar = () => {
 
 					<span className="mobileNav hidden" id="links">
 						<ul className="flex flex-col gap-2 pb-2 pt-2 justify-start sm:hidden">
-							<li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/"><a>Home</a></Link></li>
-							<li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/issues"><a>Issues</a></Link></li>
-							<li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/impacts"><a>Impacts</a></Link></li>
-              <li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/solutions"><a>Solutions</a></Link></li>
+							<li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/"><a className="flex">Home</a></Link></li>
+							<li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/issues"><a className="flex">Issues</a></Link></li>
+							<li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/impacts"><a className="flex">Impacts</a></Link></li>
+              <li className="text-lg sm:text-base cursor-pointer w-full hover:bg-green-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-green-400 active:bg-opacity-20 rounded-md px-2 py-1.5 transition duration-400 ease-out sm:font-medium sm:block"><Link href="/solutions"><a className="flex">Solutions</a></Link></li>
 						</ul>
 					</span>
 
