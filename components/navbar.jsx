@@ -12,8 +12,8 @@ const Navbar = () => {
 		<>
 			<nav className="p-4 bg-gray-900 text-gray-100 relative top-0 w-full h-auto sm:relative" id="nav">
 				<span className="flex items-center justify-between">
-          <img src="https://img.icons8.com/color/48/000000/leaf.png"/>
-            
+        
+        <img class="h-8 w-auto" src="https://img.icons8.com/color/48/000000/leaf.png" alt="Logo"/>
 
 					<button className="flex items-center justify-center p-3 sm:hidden sm:pointer-events-none w-max border-none outline-none hover:bg-indigo-400 hover:bg-opacity-20 active:bg-opacity-20 active:bg-indigo-400 active:bg-opacity-20 rounded-md" onClick={toggle}>
 							<svg className="fill-current stroke-0 sm:hidden" viewBox="0 0 100 80" width="20" height="16">
