@@ -3,13 +3,13 @@ import Footer from '../components/footer.jsx';
 import Hero from '../components/hero.jsx'
 
 function Home() {
-  return(
-		<>
-			<Navbar />
+  return (
+    <>
+      <Navbar />
       <Hero />
-			<Footer />
-		</>
-	)
+      <Footer />
+    </>
+  )
 }
 
 export default Home;
