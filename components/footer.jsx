@@ -11,7 +11,7 @@ const Footer = () => {
 				<span className="flex flex-col gap-2 sm:w-full items-center">
 					<h4 className="font-semibold text-3xl sm:text-2xl">Socials:</h4>
 					<ul className="flex flex-col sm:flex-row gap-2 items-center text-gray-100">
-						<li className="cursor-pointer">
+						<li className="cursor-pointer hover:text-gray-200">
 							<i className="fab fa-2x fa-github"></i>
 						</li>
 						<li className="cursor-pointer">
