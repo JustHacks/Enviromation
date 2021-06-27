@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 function Home() {
   return (
-    <>
+    <div className="w-full h-screen overflow-none">
 			<Head>
 				<title>Home - Eviromation</title>
 			</Head>
@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       <Info />
       <Footer />
-    </>
+    </div>
   )
 }
 

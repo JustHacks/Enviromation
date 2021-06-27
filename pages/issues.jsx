@@ -1,7 +1,7 @@
 import Navbar from '../components/navbar.jsx';
 import Head from 'next/head';
 import Footer from '../components/footer.jsx';
-import Issuesinfo from '../components/issues.jsx';
+import Issuesinfo from '../components/issuesinfo.jsx';
 
 const Issues = () => {
 	return(
