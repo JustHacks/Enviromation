@@ -24,7 +24,7 @@ const Footer = () => {
           </span>
           <ul className="p-4 sm:w-full flex flex-col justify-center items-center">
             <li className="py-1">
-              <h4 className="font-semibold mb-4 text-2xl sm:text-2xl">CAMPAIGNS</h4>
+              <h4 className="font-semibold mb-4 text-2xl sm:text-2xl">CAMPAIGS</h4>
             </li>
 
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">

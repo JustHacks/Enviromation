@@ -10,12 +10,13 @@ const Solutions = () => {
 			</Head>
 			<Navbar active4="text-green-400"/>
 
-			<div className="bg-cover py-20 mx-auto px-4 text-center sm:px-6">
+      	<div className="bg-cover py-20 mx-auto px-4 text-center sm:px-6">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl py-5 sm:p-0">
           <span className="block text-green-400 xl:inline">Solutions</span>
         </h1>
-        <p classNmae="text-red-500 max-w-4xl m-auto mt-6">Sometimes putting a limit on things can result in being very beneficial. Approximately one third of all food produced annually gets wasted (over 1,000,000,000 tonnes of food). Use the form below to ration the amount of food you use per-day to prevent any of it being wasted!</p>
+        <p className="text-gray-500 max-w-4xl m-auto mt-6">Sometimes putting a limit on things can result in being very beneficial. Approximately one third of all food produced annually gets wasted (over 1,000,000,000 tonnes of food). Use the form below to ration the amount of food you use per-day to prevent any of it being wasted!</p>
       </div>
+
 
 			<div className="flex flex-col gap-0 sm:gap-8">
 			<form className="flex flex-col w-full max-w-lg m-auto sm:p-8 p-6 bg-gray-900 text-white sm:rounded-md" action="#" method="post" autoComplete="on">
