@@ -3,13 +3,14 @@ import Panel from './panel.jsx';
 const Issuesinfo = () => {
   return (
     <>
-      <div className="py-20 mx-auto px-4 flex flex-col sm:justify-center sm:items-center flex-col sm:flex-row sm:px-6">
+      <div className="py-20 mx-auto px-4 text-center sm:px-6">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-600 sm:text-5xl md:text-6xl py-5 sm:p-0">
           <span className="block text-green-400 xl:inline">Environmental </span>
           <span className="block xl:inline">Issues</span>
         </h1>
-        <p>Environmental topics impact everyone. Caring about it will lead to a better quality of life. To create a sustainable way of life, We must identify the causes of Environmental Issues.</p>
+        <p className="text-green-600 mt-4">Environmental topics impact everyone. Caring about it will lead to a better quality of life. To create a sustainable way of life, We must identify the causes of Environmental Issues.</p>
       </div>
+      
 
       <div className="flex flex-col gap-2 sm:p-2">
           <Panel

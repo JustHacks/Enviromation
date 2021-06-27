@@ -9,6 +9,7 @@ const Solutions = () => {
 				<title>Solutions - Enviromation</title>
 			</Head>
 			<Navbar />
+			<Footer />
 		</>
 	)
 }

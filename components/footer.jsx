@@ -28,16 +28,16 @@ const Footer = () => {
             </li>
 
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a>UN75</a>
+              <a href target="_blank" src="https://www.ccacoalition.org/en/activity/breathelife-campaign">BreatheLife</a>
             </li>
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a>Clean Seas</a>
+              <a target="_blank" href="https://www.cleanseas.org/">Clean Seas</a>
             </li>
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a>Wild for Life</a>
+              <a target="_blank" href="https://wildfor.life/">Wild for Life</a>
             </li>
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a>Beat Pollution</a>
+              <a target="_blank" href="https://www.unep.org/beatpollution/">Beat Pollution</a>
             </li>
           </ul>
 
@@ -47,20 +47,20 @@ const Footer = () => {
             </li>
             
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a>Facility Green</a>
+              <a target="_blank" href="https://www.cleanairfund.org/">Clean Air</a>
             </li>
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a>Climate Fund</a>
+              <a target="_blank" href="https://www.greenclimate.fund/">Green Climate</a>
             </li>
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a>Environment Fund</a>
+              <a target="_blank" hred="https://www.brightfunds.org/funds/environment">Environment Fund</a>
             </li>
             <li className="text-xl sm:text-lg cursor-pointer text-gray-100 font-normal leading-tight py-0.5 hover:underline transition duration-100 ease-out">
-              <a> Global Environment</a>
+              <a target="_blank" href="http://www.globalenvironmentfund.com/">Global Environment</a>
             </li>
           </ul>
         </span>
-				<p className="text-xs text-gray-300 absolute bottom-1 left-1 p-0.5">This site uses <a className="text-xs text-green-400 hover:underline" href="https://icons8.com">icons8</a></p>
+				<p className="text-xs text-gray-300 text-center py-5">This site uses <a className="text-xs text-green-400 hover:underline" href="https://icons8.com">icons8</a></p>
       </section>
     </>
   )
