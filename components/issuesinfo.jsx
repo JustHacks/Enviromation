@@ -8,7 +8,7 @@ const Issuesinfo = () => {
           <span className="block text-green-400 xl:inline">Environmental </span>
           <span className="block xl:inline">Issues</span>
         </h1>
-        <p className="text-gray-500 mt-4">Environmental topics impact everyone. Caring about it will lead to a better quality of life. To create a sustainable way of life, We must identify the causes of Environmental Issues.</p>
+        <p className="text-gray-500 mt-6 max-w-4xl m-auto">Environmental topics impact everyone. Caring about it will lead to a better quality of life. To create a sustainable way of life, We must identify the causes of Environmental Issues.</p>
       </div>
 
 

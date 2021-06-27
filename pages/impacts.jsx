@@ -9,7 +9,7 @@ const Impacts = () => {
 			<Head>
 				<title>Impact - Enviromation</title>
 			</Head>
-			<Navbar />
+			<Navbar active3="text-green-400"/>
 			<Impact />
 			<Footer />
 		</>

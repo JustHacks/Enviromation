@@ -9,7 +9,7 @@ const Impact = () => {
           <span className="block text-green-400 xl:inline">Impact</span>
           <span className="block xl:inline"> on sealife</span>
         </h1>
-        <p className="text-gray-500 mt-4">Sea creatures are affected massively by things like pollution and global warming. A lot of nutrients or pesticicides used in agriculture are harmful to the oceans. Marine pollution occurs when a harmful body comes in contact with the ocean, causing harmful chemicles to spread. Bellow you can find a selection of endangered sea creatures</p>
+        <p className="text-gray-500 max-w-4xl m-auto mt-6">Sea creatures are affected massively by things like pollution and global warming. A lot of nutrients or pesticicides used in agriculture are harmful to the oceans. Marine pollution occurs when a harmful body comes in contact with the ocean, causing harmful chemicles to spread. Bellow you can find a selection of endangered sea creatures</p>
       </div>
 			<div className="flex flex-col gap-2">
 			<Panel

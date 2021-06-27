@@ -11,7 +11,7 @@ const Issues = () => {
 				<title>Issues - Enviromation</title>
 			</Head>
 
-			<Navbar />
+			<Navbar active2="text-green-400"/>
 			<Issuesinfo />
 			<Footer />
 		</>

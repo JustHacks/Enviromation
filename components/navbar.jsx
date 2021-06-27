@@ -3,7 +3,7 @@ import Link from 'next/link';
 // Navbar functionality
 // If the hamburger menu is toggled the ul with all the links is shows, this also sets the main nav to display fixed
 
-const Navbar = () => {
+const Navbar = (props) => {
 	const toggle = () => {
 		let x = document.getElementById('links');
 		let y = document.getElementById('nav');
@@ -35,10 +35,10 @@ const Navbar = () => {
 					</span>
 
 					<ul className="nonMobileNav hidden sm:flex sm:gap-8 sm:justify-end sm:flex-row sm:gap-3 sm:p-2 sm:w-full">
-						<li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/"><a>Home</a></Link></li>
-						<li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/issues"><a>Issues</a></Link></li>
-						<li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/impacts"><a>Impacts</a></Link></li>
-            <li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/solutions"><a>Solutions</a></Link></li>
+						<li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/"><a className={props.active1}>Home</a></Link></li>
+						<li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/issues"><a className={props.active2}>Issues</a></Link></li>
+						<li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/impacts"><a className={props.active3}>Impacts</a></Link></li>
+            <li className="text-base cursor-pointer w-max hover:text-green-400 transition duration-300 ease-out font-medium"><Link href="/solutions"><a className={props.active4}>Solutions</a></Link></li>
 					</ul>	
 			</nav>
 		</>

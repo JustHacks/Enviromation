@@ -10,7 +10,7 @@ function Home() {
 			<Head>
 				<title>Home - Eviromation</title>
 			</Head>
-      <Navbar />
+      <Navbar active1="text-green-400"/>
       <Hero />
       <Info />
       <Footer />

@@ -8,7 +8,7 @@ const Solutions = () => {
 			<Head>
 				<title>Solutions - Enviromation</title>
 			</Head>
-			<Navbar />
+			<Navbar active4="text-green-400"/>
 			<Footer />
 		</>
 	)
