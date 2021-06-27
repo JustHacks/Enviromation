@@ -60,9 +60,9 @@ const Footer = () => {
             </li>
           </ul>
         </span>
-				<span className="flex flex-row items-center justify-center">
+				<span className="flex flex-row items-center justify-center pt-6">
 				<img className="w-4 " src="https://img.icons8.com/emoji/48/000000/-emoji-sparkles.png"/>
-				<p className="text-xs text-gray-300 text-center py-5 px-0.5" target="_blank">This site uses icons from <a className="text-xs text-green-400 hover:underline" href="https://icons8.com">icons8</a> and media from <a className="text-xs text-green-400 hover:underline cursor-pointer" target="_blank">Unsplash</a></p>
+				<p className="text-xs text-gray-300 text-center px-0.5" target="_blank">This site uses icons from <a className="text-xs text-green-400 hover:underline" href="https://icons8.com">icons8</a> and media from <a className="text-xs text-green-400 hover:underline cursor-pointer" target="_blank">Unsplash</a></p>
 				<img className="w-4 transform rotate-180" src="https://img.icons8.com/emoji/48/000000/-emoji-sparkles.png"/>
 				</span>
       </section>

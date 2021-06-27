@@ -1,5 +1,6 @@
 import Navbar from '../components/navbar.jsx';
 import Footer from '../components/footer.jsx';
+import Impact from '../components/impact.jsx';
 import Head from 'next/head';
 
 const Impacts = () => {
@@ -9,6 +10,7 @@ const Impacts = () => {
 				<title>Impact - Enviromation</title>
 			</Head>
 			<Navbar />
+			<Impact />
 			<Footer />
 		</>
 	)
