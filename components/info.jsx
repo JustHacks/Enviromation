@@ -1,7 +1,7 @@
 const Info = () => {
   return (
     <>
-    <div className="flex flex-col items-center text-center w-screen md:items-start md:text-left">
+    <div className="flex flex-col items-center text-center w-screen md:items-start md:text-left z-10">
     <div className="md:ml-20 mt-6">
       <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block text-green-400 xl:inline">Enviromation's</span>

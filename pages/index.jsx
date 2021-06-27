@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 function Home() {
   return (
-    <div className="w-full h-screen overflow-none">
+    <div className="w-full bg-cover h-full overflow-none">
 			<Head>
 				<title>Home - Eviromation</title>
 			</Head>

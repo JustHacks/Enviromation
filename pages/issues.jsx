@@ -6,9 +6,11 @@ import Issuesinfo from '../components/issuesinfo.jsx';
 const Issues = () => {
 	return(
 		<>
+		{/*<div className="w-full h-screen bg-forrest z-0 bg-no-repeat bg-cover bg-top bg-fixed"></div>*/}
 			<Head>
 				<title>Issues - Enviromation</title>
 			</Head>
+
 			<Navbar />
 			<Issuesinfo />
 			<Footer />
