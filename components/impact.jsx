@@ -12,7 +12,7 @@ const Impact = () => {
         </h1>
         <p className="text-gray-500 max-w-4xl m-auto mt-6">Sea creatures are affected massively by things like pollution and global warming. A lot of nutrients or pesticicides used in agriculture are harmful to the oceans. Marine pollution occurs when a harmful body comes in contact with the ocean, causing harmful chemicles to spread. Bellow you can find a selection of endangered sea creatures</p>
       </div>
-			<div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2">
 			<Panel
 			image="https://images.unsplash.com/photo-1532393950032-b666e39c29b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
 			header="Dolphins"
