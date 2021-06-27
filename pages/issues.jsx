@@ -1,15 +1,17 @@
 import Navbar from '../components/navbar.jsx';
 import Head from 'next/head';
+import Footer from '../components/footer.jsx';
 import Issuesinfo from '../components/issues.jsx';
 
 const Issues = () => {
 	return(
 		<>
 			<Head>
-				<title> - Enviromation</title>
+				<title>Issues - Enviromation</title>
 			</Head>
 			<Navbar />
 			<Issuesinfo />
+			<Footer />
 		</>
 	)
 }

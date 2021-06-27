@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossOrigin="anonymous" />
       </Head>
-      <section className="footer bg-gray-900 text-white p-6 sm:p-8 relative bottom-0 mt-12 sm:mt-60">
+      <section className="footer bg-gray-900 text-white p-6 sm:p-8 relative bottom-0 mt-12">
         <span className="flex flex-col sm:flex-row items-center gap-4">
           <span className="flex flex-col gap-2 sm:w-full items-center">
             <h4 className="font-semibold text-3xl sm:text-2xl">Socials:</h4>
@@ -60,6 +60,7 @@ const Footer = () => {
             </li>
           </ul>
         </span>
+				<p className="text-xs text-gray-300 absolute bottom-1 left-1 p-0.5">This site uses <a className="text-xs text-green-400 hover:underline" href="https://icons8.com">icons8</a></p>
       </section>
     </>
   )

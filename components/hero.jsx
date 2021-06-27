@@ -7,7 +7,7 @@ const Hero = () => {
                 <span className="block text-green-400 xl:inline">Enviromation</span>
               </h1>
               <p className="my-8 text-base text-center text-gray-300 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, mollitia quis. Asperiores suscipit voluptates quis fugit quisquam dicta delectus est!
+                The climate crisis is rising at an unprecedented rate. Protecting it, starts with <strong>you</strong>
               </p>
               <div className="mt-5 sm:mt-8 sm:flex justify-center">
                 <div className="rounded-md shadow">
